@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'High Tide Geometric';
+    src: url('../fonts/HighTide.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+    color: #c3d9f8;
+    background-color: #03313d;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+main {
+    width: 57%;
+}
+
+section {
+    padding-bottom: 2%;
+}
+
+h2, h3 {
+    font-family: 'High Tide Geometric', Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 100%;
+}
