@@ -1,10 +1,10 @@
-function updateHeaderHeight() {
-    const header = document.querySelector("header");
+function updateNavHeight() {
+    const header = document.querySelector("nav");
     document.documentElement.style.setProperty(
-        "--header-height",
+        "--nav-height",
         header.offsetHeight + "px"
     );
 }
 
-window.addEventListener("load", updateHeaderHeight);
-window.addEventListener("resize", updateHeaderHeight);
+window.addEventListener("load", updateNavHeight);
+window.addEventListener("resize", updateNavHeight);
