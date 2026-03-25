@@ -50,6 +50,21 @@ nav ul {
     margin: 0;
 }
 
+a {
+    border-radius: 20px;
+	margin-right: 10px;
+	padding: 5px 10px 10px;
+	text-decoration: none;
+	font-family: 'High Tide Geometric', Georgia, 'Times New Roman', Times, serif;
+	color: #c3d9f8;
+}
+
+a:hover {
+	background-color: #c3d9f8;
+    color: #0c6980;
+    cursor: pointer;
+}
+
 section {
     padding-bottom: 2%;
 }
@@ -60,21 +75,6 @@ h2, h3 {
 
 img {
     width: 100%;
-}
-
-a {
-    border-radius: 15px;
-	margin-right: 10px;
-	padding: 5px 10px;
-	text-decoration: none;
-	font-family: 'High Tide Geometric', Georgia, 'Times New Roman', Times, serif;
-	color: #c3d9f8;
-}
-
-a:hover {
-	background-color: #c3d9f8;
-    color: #0c6980;
-    cursor: pointer;
 }
 
 .sticky	{
